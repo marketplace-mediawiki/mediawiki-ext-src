@@ -1,8 +1,8 @@
-# Information / Информация
+# Information
 
 Интеграция тега кода `SRC` в статью.
 
-## Install / Установка
+## Install
 
 1. Загрузите папки и файлы в директорию `extensions/MW_EXT_Src`.
 2. В самый низ файла `LocalSettings.php` добавьте строку:
@@ -11,7 +11,7 @@
 wfLoadExtension( 'MW_EXT_Src' );
 ```
 
-## Syntax / Синтаксис
+## Syntax
 
 ```html
 <src type="[TYPE]" lang="[LANGUAGE]">[CONTENT]</src>
@@ -21,6 +21,6 @@ wfLoadExtension( 'MW_EXT_Src' );
 - `block` - блочное форматирование кода;
 - `inline` - строчное форматирование кода.
 
-## Donations / Пожертвования
+## Donations
 
 - [Donation Form](https://donation-form.github.io/)
